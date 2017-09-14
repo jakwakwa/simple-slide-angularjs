@@ -1,0 +1,61 @@
+#slides_control > div{
+  height: 200px;
+}
+img,
+.slide {
+  margin:auto;
+  background-color: #423a41;
+  width: 100vw;
+  height: 200px;
+}
+
+.slide {
+	color: #fff;
+	padding-top: 20px;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+
+
+#slides_control {
+  position:absolute;
+  width: 100vw;
+  left:0;
+  top:0;
+ // margin-left:-200px;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 480px) {
+
+  #slides_control > div{
+    height: 350px;
+  }
+
+  img,
+  .slide {
+    height: 350px;
+  }
+
+  .slide {
+    color: #fff;
+    padding-top: 80px;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1000px) {
+
+}
+
+@media (min-width: 1280px) {
+
+}

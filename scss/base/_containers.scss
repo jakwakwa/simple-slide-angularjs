@@ -1,0 +1,35 @@
+/* ==========================================================================
+   Main Containers or Wrappers
+   ========================================================================*/
+
+.container {
+	width: 95%;
+	margin: 0 auto;
+	padding: 0 1em;
+	border-bottom: 2px solid #5b626b;
+}
+
+// Sticky Footer
+.wrap {
+	min-height: calc(100vh - 180px);
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 480px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1000px) {
+
+}
+
+@media (min-width: 1280px) {
+
+}
